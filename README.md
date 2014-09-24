@@ -10,3 +10,5 @@ There is an extra library added, RBUtils, having some functions I got used to an
 All Volt templates are cached in the "/volt" folder. To change the path further you can edit the "/config/config.ini" file.
 
 This skeleton was created for my own needs but anyone else is more than welcome to use it and change it.
+
+Inside the public/css and public/js folders another folder has to be created and chmod-ed to 777. The folder name will be "compiled". This is the folder where all the minimized .css and .js will be created.
